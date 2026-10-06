@@ -1,5 +1,5 @@
 import Navbar from './componentes/Navbar';
-import Cart from './componentes/Cart';
+import Pizza from './componentes/Pizza';
 import Footer from './componentes/Footer';
 import './App.css';
 
@@ -7,7 +7,11 @@ function App() {
   return (
     <div className="d-flex flex-column min-vh-100">
       <Navbar />
-      <Cart />
+      {/* <Home /> */}
+      {/* <Registro /> */}
+      {/* <InicioSesion /> */}
+      {/* <Cart /> */}
+      <Pizza />
       <Footer />
     </div>
   );
